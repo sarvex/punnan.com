@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@builder.io/qwik':
     specifier: 1.1.5
@@ -15,8 +11,8 @@ dependencies:
     specifier: ^0.9.4
     version: 0.9.4
   '@fontsource/inter':
-    specifier: ^5.0.0
-    version: 5.0.0
+    specifier: ^5.0.3
+    version: 5.0.3
   '@tailwindcss/typography':
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
@@ -400,8 +396,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: false
 
-  /@fontsource/inter@5.0.0:
-    resolution: {integrity: sha512-yhNfm2hV+5u7PQDSGYraJ6g1nbaVuWJFiE9fo1r0Tg2xthveZsYFOUltLRLCASo3DIkTkPgf1WX8Wpxfm3IEUQ==}
+  /@fontsource/inter@5.0.3:
+    resolution: {integrity: sha512-JJvh5xht71F6e0E5r2+Ffu8g+CYAxMvnGJm9ZMg5IIjy8UwxLp+8C99TgPJupdEyBpEJv0wuMG2Rd183z/bV8g==}
     dev: false
 
   /@gustavnikolaj/async-main-wrap@3.0.1:
@@ -6489,3 +6485,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
